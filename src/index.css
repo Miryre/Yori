@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth gradient background */
+.gradient-bg {
+  background: linear-gradient(135deg, #FFDAB9 0%, #FFB07C 33%, #FF8C69 66%, #FFB6C1 100%);
+}
+
+/* Subtle gradient for accents */
+.gradient-accent {
+  background: linear-gradient(90deg, #FFB07C 0%, #FF8C69 50%, #FFB6C1 100%);
+}

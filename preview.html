@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yori Preview</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', system-ui, sans-serif; 
+            color: #1f2937;
+            background: white;
+        }
+        .gradient-warm-sunset {
+            background: linear-gradient(135deg, #FFDAB9 0%, #FFB07C 33%, #FF8C69 66%, #FFB6C1 100%);
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 80px 24px; text-center; }
+        .logo { font-size: 56px; font-weight: 800; margin-bottom: 16px; }
+        .divider { 
+            width: 96px; 
+            height: 4px; 
+            margin: 0 auto 32px; 
+            border-radius: 9999px;
+        }
+        h1 { font-size: 48px; font-weight: 800; margin-bottom: 24px; line-height: 1.2; }
+        .subtitle { font-size: 24px; color: #4b5563; margin-bottom: 48px; }
+        .button {
+            display: inline-block;
+            padding: 16px 32px;
+            color: white;
+            font-weight: 600;
+            border-radius: 9999px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .note { margin-top: 24px; font-size: 14px; color: #6b7280; }
+        .section { padding: 80px 24px; background: #f9fafb; }
+        .section-inner { max-width: 800px; margin: 0 auto; }
+        .section h2 { font-size: 36px; font-weight: 800; margin-bottom: 48px; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; }
+        .card { text-align: center; }
+        .icon { 
+            width: 64px; 
+            height: 64px; 
+            margin: 0 auto 16px; 
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 32px;
+        }
+        .card h3 { font-size: 20px; margin-bottom: 12px; }
+        .card p { color: #4b5563; line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="logo">Yori</div>
+        <div class="divider gradient-warm-sunset"></div>
+        <h1>You belong here</h1>
+        <p class="subtitle">Connect with people who truly care. Build genuine friendships from wherever you are.</p>
+        <a href="#" class="button gradient-warm-sunset">Join Waitlist</a>
+        <p class="note">No cost. No pressure. No bullying. Just real connection.</p>
+    </div>
+
+    <!-- Why Section -->
+    <div class="section">
+        <div class="section-inner">
+            <h2>We get it</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon" style="background: #FFDAB9;">💭</div>
+                    <h3>Feeling disconnected</h3>
+                    <p>It's hard to find people who truly understand you and want genuine connection.</p>
+                </div>
+                <div class="card">
+                    <div class="icon" style="background: #FFB07C;">🏠</div>
+                    <h3>Stuck at home</h3>
+                    <p>Going out to meet people feels overwhelming. You want connection on your own terms.</p>
+                </div>
+                <div class="card">
+                    <div class="icon" style="background: #FFB6C1;">⏰</div>
+                    <h3>Tired of wasting time</h3>
+                    <p>Weeding through superficial interactions to find people who actually care is exhausting.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Values Preview -->
+    <div class="container">
+        <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 24px;">What we believe</h2>
+        <p style="font-size: 20px; color: #4b5563; margin-bottom: 48px;">Yori is built on values that put people first. Always.</p>
+        <div class="grid">
+            <div>
+                <h3 style="font-size: 20px; margin-bottom: 12px;">Genuine connection</h3>
+                <p style="color: #4b5563;">No superficial interactions. Just real people looking for real friendships.</p>
+            </div>
+            <div>
+                <h3 style="font-size: 20px; margin-bottom: 12px;">Accessible to everyone</h3>
+                <p style="color: #4b5563;">Free to use. Everyone deserves to belong.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
